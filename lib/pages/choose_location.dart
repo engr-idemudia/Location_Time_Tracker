@@ -10,22 +10,22 @@ class _ChooseLocationState extends State<ChooseLocation> {
 
   List<WorldTime> locations = [
 
-    WorldTime(url: 'Europe/Tallinn', location: 'Tallinn', flag: 'est.png'),
-    WorldTime(url: 'Africa/Lagos', location: 'Nigeria', flag: 'nigeria.png'),
-    WorldTime(url: 'America/Chicago', location: 'Chicago', flag: 'chicago.png'),
-    WorldTime(url: 'Australia/Adelaide', location: 'South-Australia', flag: 'adelaide.png'),
-    WorldTime(url: 'Europe/London', location: 'London', flag: 'uk.png'),
-    WorldTime(url: 'Africa/Johannesburg', location: 'South-Africa', flag: 'SA.png'),
-    WorldTime(url: 'Europe/Berlin', location: 'Germany', flag: 'germany.png'),
-    WorldTime(url: 'America/New_York', location: 'New York', flag: 'newyork.png'),
-    WorldTime(url: 'Africa/Nairobi', location: 'Nairobi', flag: 'kenya.png'),
-    WorldTime(url: 'Asia/Seoul', location: 'Seoul', flag: 'south_korea.png'),
-    WorldTime(url: 'Asia/Jakarta', location: 'Jakarta', flag: 'indonesia.png'),
-    WorldTime(url: 'Australia/Sydney', location: 'Australia', flag: 'NSW.png'),
-    WorldTime(url: 'Africa/Cairo', location: 'Cairo', flag: 'egypt.png'),
-    WorldTime(url: 'Europe/Athens', location: 'Athens', flag: 'greece.png'),
-    WorldTime(url: 'Europe/Oslo', location: 'Norway', flag: 'norway.png'),
-    WorldTime(url: 'Asia/Singapore', location: 'Singapore', flag: 'singapore.png'),
+    WorldTime(region: 'Europe/Tallinn', location: 'Tallinn', flag: 'est.png'),
+    WorldTime(region: 'Africa/Lagos', location: 'Nigeria', flag: 'nigeria.png'),
+    WorldTime(region: 'America/Chicago', location: 'Chicago', flag: 'chicago.png'),
+    WorldTime(region: 'Australia/Adelaide', location: 'South-Australia', flag: 'adelaide.png'),
+    WorldTime(region: 'Europe/London', location: 'London', flag: 'uk.png'),
+    WorldTime(region: 'Africa/Johannesburg', location: 'South-Africa', flag: 'SA.png'),
+    WorldTime(region: 'Europe/Berlin', location: 'Germany', flag: 'germany.png'),
+    WorldTime(region: 'America/New_York', location: 'New York', flag: 'newyork.png'),
+    WorldTime(region: 'Africa/Nairobi', location: 'Nairobi', flag: 'kenya.png'),
+    WorldTime(region: 'Asia/Seoul', location: 'Seoul', flag: 'south_korea.png'),
+    WorldTime(region: 'Asia/Jakarta', location: 'Jakarta', flag: 'indonesia.png'),
+    WorldTime(region: 'Australia/Sydney', location: 'Australia', flag: 'NSW.png'),
+    WorldTime(region: 'Africa/Cairo', location: 'Cairo', flag: 'egypt.png'),
+    WorldTime(region: 'Europe/Athens', location: 'Athens', flag: 'greece.png'),
+    WorldTime(region: 'Europe/Oslo', location: 'Norway', flag: 'norway.png'),
+    WorldTime(region: 'Asia/Singapore', location: 'Singapore', flag: 'singapore.png'),
 
   ];
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:location_time_tracker/services/world_time.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-
+//import 'package:http/http.dart';
+import 'package:location_time_tracker/services/world_time.dart';
 
 class Loading extends StatefulWidget {
   @override
@@ -9,9 +9,8 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-
   void setupWorldTime() async {
-    WorldTime instance = WorldTime(location: 'Berlin', flag: 'germany.png', url: 'Europe/Berlin');
+    WorldTime instance = WorldTime(location: 'Berlin', flag: 'germany.png', region: 'Europe/Berlin');
     await instance.getTime();
     Navigator.pushReplacementNamed(context, '/home', arguments: {
       'location': instance.location,
@@ -33,10 +32,8 @@ class _LoadingState extends State<Loading> {
         backgroundColor: Colors.blue[900],
         body: Center(
             child: SpinKitFadingCube(
-              color: Colors.white,
-              size: 50.0,
-            )
-        )
-    );
+          color: Colors.white,
+          size: 50.0,
+        )));
   }
 }
